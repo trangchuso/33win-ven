@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>33winns.online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Container chính để giới hạn chiều rộng trên màn hình máy tính -->
+    <div class="mobile-container">
+        
+        <!-- Header -->
+        <header class="header">
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    
+    <div class="logo">
+        <!-- Nhớ đổi tên file ảnh cho đúng -->
+        <img src="images/logo.png" alt="33WIN">
+    </div>
+    
+    <div class="app-icon">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <span>APP</span>
+    </div>
+</header>
+
+        <!-- Banner Slider Tự Động -->
+<section class="banner-slider">
+    <div class="slider-wrapper" id="slider-wrapper">       
+        <img src="images/banner1.jpg" alt="Banner 1" class="slide">       
+        <img src="images/banner2.jpg" alt="Banner 2" class="slide">
+        <img src="images/banner3.jpg" alt="Banner 3" class="slide">
+        <img src="images/banner4.jpg" alt="Banner 4" class="slide">
+        <img src="images/banner5.jpg" alt="Banner 5" class="slide">
+        <img src="images/banner6.jpg" alt="Banner 6" class="slide">
+    </div>
+    
+    <!-- Các dấu chấm chỉ thị vị trí banner (Tùy chọn, giúp UI đẹp hơn) -->
+    <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+
+        <!-- Thanh tin tức chạy chữ -->
+        <div class="news-ticker">
+            <marquee>🔊 TIN TỨC: BÃO TÀI LỘC! Quý khách tuyệt đối đừng bỏ lỡ 3 mốc bùng nổ...</marquee>
+        </div>
+
+        <!-- Các Nút Thao Tác -->
+<section class="action-buttons">
+    <div class="login-register">
+    <button class="btn btn-outline" id="btn-open-login">ĐĂNG NHẬP</button>
+    <button class="btn btn-outline" id="btn-open-register">ĐĂNG KÝ</button>
+</div>
+    
+    <div class="quick-actions">
+        <div class="action-item">
+            <i class="fa-solid fa-wallet"></i>
+            <span>NẠP TIỀN NGAY</span>
+        </div>
+        
+        <div class="action-item">
+            <!-- Thay thế bằng hình ảnh logo VIP của bạn -->
+            <img src="images/vip.ac.png" alt="VIP" class="vip-icon">
+            <span>VIP</span>
+        </div>
+        
+        <div class="action-item">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <span>RÚT TIỀN NGAY</span>
+        </div>
+    </div>
+</section>
+        <!-- Danh mục Game -->
+<div class="categories-wrapper">
+    <div class="categories">
+        <div class="cat-item">
+            <i class="fa-solid fa-fire"></i>
+            <span>HOT NHẤT</span>
+        </div>
+        <div class="cat-item">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>NỔ HŨ</span>
+        </div>
+        <div class="cat-item">
+            <i class="fa-solid fa-fish"></i>
+            <span>BẮN CÁ</span>
+        </div>
+        <div class="cat-item">
+    <!-- Sử dụng icon xúc xắc cho Sòng Bài -->
+    <i class="fa-solid fa-dice"></i>
+    <span>SÒNG BÀI</span>
+</div>
+        <div class="cat-item">
+            <i class="fa-solid fa-futbol"></i>
+            <span>THỂ THAO</span>
+        </div>
+        <div class="cat-item">
+            <!-- Sử dụng icon quân cờ cho Game Bài -->
+            <i class="fa-solid fa-chess-pawn"></i>
+            <span>GAME BÀI</span>
+        </div>
+        <!-- Mục Active (Đang chọn) -->
+        <div class="cat-item active">
+            <i class="fa-solid fa-ticket-simple"></i>
+            <span>XỔ SỐ</span>
+        </div>
+    </div>
+    
+    <!-- Thanh vạch ngang mờ bên dưới danh mục -->
+    <div class="scroll-track">
+        <div class="scroll-thumb"></div>
+    </div>
+</div>
+
+        <!-- Banner game bên dưới -->
+<section class="bottom-banners">
+    <!-- Cột 1: PG Quyết Chiến -->
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/1.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">Quyết Chiến<br>Tiền Thưởng</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    
+    <!-- Cột 2: XJ Na Tra -->
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/2.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">Na Tra</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/3.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">ĐƯỜNG MẠT<br>CHƯỢC</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/4.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">Bữa tiệc<BR>kẹo 1000X</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/5.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">Đường Mạt<br>Chược 2</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/6.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">Liên Minh<br>Huyền..</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/7.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">Kho Báu<br>Aztec</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/8.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">Thời Kỳ<br>Hoàng Kim</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/9.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">Siêu Cấp <br>ACE</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/10.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">Để Quốc<br>Hoàng Kim</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/11.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">Quyền Vương</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/12.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">ChuyênGia<br>Săn Rồng</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo PG, icon game và chữ SLOT MACHINE -->
+        <img src="images/13.png" alt="PG Quyết Chiến" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name">Jackpot Đánh<br>Cá</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+    <div class="banner-box">
+        <!-- Ảnh nền chứa logo XJ, icon game và chữ SLOT MACHINE -->
+        <img src="images/14.png" alt="XJ Na Tra" class="game-img">
+        <!-- Chữ tiếng Việt chèn đè lên trên -->
+        <div class="game-name xj-name">Chợ Đêm</div>
+        <!-- Nút vào trò chơi -->
+        <div class="play-tag">vào trò chơi</div>
+    </div>
+
+</section>
+
+        <!-- Thanh Menu Dưới Cùng (Bottom Navigation) -->
+<nav class="bottom-nav">
+    <!-- Nút Trang Chủ đang được chọn (Active) -->
+    <div class="nav-item active">
+        <i class="fa-solid fa-house"></i>
+        <span>TRANG CHỦ</span>
+    </div>
+    
+    <div class="nav-item">
+        <i class="fa-solid fa-circle-dollar-to-slot"></i>
+        <span>HOÀN TRẢ</span>
+    </div>
+    
+    <div class="nav-item">
+        <i class="fa-solid fa-gift"></i>
+        <span>KHUYẾN MÃI</span>
+    </div>
+    
+    <div class="nav-item">
+        <i class="fa-solid fa-headset"></i>
+        <span>CSKH 24/7</span>
+    </div>
+    
+    <div class="nav-item">
+        <i class="fa-regular fa-user"></i>
+        <span>ĐĂNG NHẬP</span>
+    </div>
+</nav>
+
+    </div>
+    <!-- Auth Modal (Popup Đăng nhập / Đăng ký) -->
+<div class="auth-modal" id="auth-modal">
+    <!-- Hình nền của popup -->
+    <div class="auth-bg" style="background-image: url('images/bg.png');"></div>
+    
+    <div class="auth-content-scroll">
+        <!-- Nút đóng -->
+        <i class="fa-solid fa-xmark close-auth" id="close-auth"></i>
+        
+        <!-- Logo -->
+        <img src="images/logo.png" alt="33WIN" class="auth-logo">
+
+        <!-- Hộp chứa form -->
+        <div class="auth-box">
+            <!-- Tabs chuyển đổi -->
+            <div class="auth-tabs">
+                <div class="auth-tab active" id="tab-login">ĐĂNG NHẬP</div>
+                <div class="auth-tab" id="tab-register">ĐĂNG KÝ</div>
+            </div>
+
+            <!-- FORM ĐĂNG NHẬP -->
+<div class="auth-form active" id="form-login">
+    <div class="input-group">
+        <i class="fa-regular fa-user"></i>
+        <input type="text" placeholder="Tài khoản">
+    </div>
+    <div class="input-group">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Mật khẩu">
+        <i class="fa-solid fa-eye-slash right-icon"></i>
+    </div>
+    
+    <!-- Thay trường Mã xác minh bằng Số điện thoại -->
+    <div class="input-group">
+        <i class="fa-solid fa-phone"></i>
+        <input type="tel" placeholder="Số điện thoại">
+    </div>
+    
+    <button class="btn-submit">Đăng Nhập</button>
+    
+    <!-- Banner tải app 1.1.1.1 -->
+    <div class="banner-1111">
+        <img src="images/1111.png" alt="Tải 1.1.1.1">
+        <p>Cài đặt 1.1.1.1 để truy cập web chính hãng, không lo bị nhà mạng chặn.</p>
+    </div>
+</div>
+
+           <!-- FORM ĐĂNG KÝ -->
+<div class="auth-form" id="form-register">
+    <div class="form-field">
+        <label><i class="fa-solid fa-star"></i> Tên tài khoản</label>
+        <div class="input-group"><input type="text"></div>
+        <span class="helper-text">Từ 2-15 kí tự, phải bắt đầu bằng chữ cái...</span>
+    </div>
+    
+    <div class="form-field">
+        <label><i class="fa-solid fa-star"></i> Mật khẩu thành viên</label>
+        <div class="input-group">
+            <input type="password">
+            <i class="fa-solid fa-eye-slash right-icon"></i>
+        </div>
+        <span class="helper-text">Hơn 6 ký tự phải bao gồm chữ cái và số</span>
+    </div>
+    
+    <div class="form-field">
+        <label><i class="fa-solid fa-star"></i> Họ và Tên thật</label>
+        <div class="input-group"><input type="text"></div>
+        <span class="helper-text">Cần Giống Tên Tài Khoản Ngân Hàng...</span>
+    </div>
+    
+    <!-- Thêm trường Số điện thoại -->
+    <div class="form-field">
+        <label><i class="fa-solid fa-star"></i> Số điện thoại</label>
+        <div class="input-group"><input type="tel"></div>
+        <span class="helper-text">Vui lòng nhập số điện thoại hợp lệ</span>
+    </div>
+    
+    <div class="checkbox-group">
+        <input type="checkbox" checked>
+        <span>Tôi đã hiểu <a href="#">Thỏa thuận đăng ký người dùng</a></span>
+    </div>
+
+    <button class="btn-submit">Đăng ký người dùng mới</button>
+</div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
